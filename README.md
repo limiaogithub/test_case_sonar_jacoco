@@ -12,8 +12,11 @@ Sonar可以集成jacoco运行单元测试的代码覆盖率</br>
 <h2>3.本工程</h2>
 本工程是一个样例工程，可参考pom.xml和sonar-project.properties配置</br>
 </br>
-mvn clean install sonar:sonar -Dsonar.issuesReport.html.enable=true -Dsonar.host.url=http://localhost:9000 -Dsonar.login={your key}
+mvn clean install sonar:sonar -Dsonar.issuesReport.html.enable=true -Dsonar.host.url=http://localhost:9000 -Dsonar.login={your key}</br>
 
 
+![Alt text](https://github.com/limiaogithub/test_case_sonar_jacoco/blob/master/1.png)
+
+![Alt text](https://github.com/limiaogithub/test_case_sonar_jacoco/blob/master/2.png)
 
 
